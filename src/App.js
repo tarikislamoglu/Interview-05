@@ -62,7 +62,7 @@ const Modal = ({ selectedValue }) => {
       className="bg-black opacity-80 text-white absolute  w-[50%] h-[50%] bottom-5 flex justify-center items-center top-[25%] left-[25%] rounded-lg"
       onClick={(e) => e.stopPropagation()}
     >
-      <p className="pt-5 ">Full Text : "{selectedValue}"</p>
+      <p className="p-6 ">Full Text : "{selectedValue}"</p>
     </div>
   );
 };
